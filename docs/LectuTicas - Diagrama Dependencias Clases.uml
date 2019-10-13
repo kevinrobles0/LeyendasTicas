@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>cr.ac.tec.lectuticas.Activities.IniciarPreguntasCuentoActivity</OriginalElement>
+  <nodes>
+    <node x="292.0" y="173.0">cr.ac.tec.lectuticas.Activities.AcercaActivity</node>
+    <node x="135.0" y="158.0">cr.ac.tec.lectuticas.Activities.LeyendasActivity</node>
+    <node x="669.0" y="207.0">cr.ac.tec.lectuticas.Activities.LecturaCuentoActivity</node>
+    <node x="246.0" y="349.0">cr.ac.tec.lectuticas.Utilities.WebServiceCaller</node>
+    <node x="742.455" y="-63.0">cr.ac.tec.lectuticas.Models.Paragraph</node>
+    <node x="286.5" y="79.0">cr.ac.tec.lectuticas.Utilities.AnalyticsTracker</node>
+    <node x="12.349999999999994" y="343.0">cr.ac.tec.lectuticas.Models.Question</node>
+    <node x="0.0" y="462.0">cr.ac.tec.lectuticas.Activities.PreguntasCuentoActivity</node>
+    <node x="0.0" y="158.0">cr.ac.tec.lectuticas.Activities.MainActivity</node>
+    <node x="63.0" y="223.0">cr.ac.tec.lectuticas.Models.Answer</node>
+    <node x="709.9749999999999" y="81.0">cr.ac.tec.lectuticas.Models.Story</node>
+    <node x="240.0" y="270.0">cr.ac.tec.lectuticas.Utilities.WebServiceHandler</node>
+    <node x="1.0" y="506.0">cr.ac.tec.lectuticas.Activities.ResultadoPreguntasActivity</node>
+    <node x="436.0" y="158.0">cr.ac.tec.lectuticas.Activities.IniciarPreguntasCuentoActivity</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cr.ac.tec.lectuticas.Models.Story" target="cr.ac.tec.lectuticas.Models.Paragraph">
+      <point x="0.0" y="-14.5" />
+      <point x="747.4749999999999" y="54.0" />
+      <point x="759.455" y="54.0" />
+      <point x="-34.0" y="14.5" />
+    </edge>
+    <edge source="cr.ac.tec.lectuticas.Activities.IniciarPreguntasCuentoActivity" target="cr.ac.tec.lectuticas.Utilities.AnalyticsTracker">
+      <point x="0.0" y="-14.5" />
+      <point x="542.0" y="138.0" />
+      <point x="381.0" y="138.0" />
+      <point x="27.0" y="14.5" />
+    </edge>
+    <edge source="cr.ac.tec.lectuticas.Activities.LecturaCuentoActivity" target="cr.ac.tec.lectuticas.Models.Story">
+      <point x="-33.200000000000045" y="-14.5" />
+      <point x="717.8" y="138.0" />
+      <point x="728.7249999999999" y="138.0" />
+      <point x="-18.75" y="14.5" />
+    </edge>
+    <edge source="cr.ac.tec.lectuticas.Activities.PreguntasCuentoActivity" target="cr.ac.tec.lectuticas.Models.Answer">
+      <point x="72.0" y="-14.5" />
+      <point x="162.0" y="360.0" />
+      <point x="128.85" y="360.0" />
+      <point x="128.85" y="286.0" />
+      <point x="134.5" y="286.0" />
+      <point x="29.0" y="14.5" />
+    </edge>
+    <edge source="cr.ac.tec.lectuticas.Activities.LecturaCuentoActivity" target="cr.ac.tec.lectuticas.Utilities.AnalyticsTracker">
+      <point x="-66.39999999999998" y="-14.5" />
+      <point x="684.6" y="128.0" />
+      <point x="408.0" y="128.0" />
+      <point x="54.0" y="14.5" />
+    </edge>
+    <edge source="cr.ac.tec.lectuticas.Activities.LeyendasActivity" target="cr.ac.tec.lectuticas.Utilities.AnalyticsTracker">
+      <point x="0.0" y="-14.5" />
+      <point x="203.5" y="138.0" />
+      <point x="327.0" y="138.0" />
+      <point x="-27.0" y="14.5" />
+    </edge>
+    <edge source="cr.ac.tec.lectuticas.Activities.PreguntasCuentoActivity" target="cr.ac.tec.lectuticas.Models.Question">
+      <point x="0.0" y="-14.5" />
+      <point x="90.0" y="370.0" />
+      <point x="91.35" y="370.0" />
+      <point x="32.0" y="14.5" />
+    </edge>
+    <edge source="cr.ac.tec.lectuticas.Utilities.WebServiceCaller" target="cr.ac.tec.lectuticas.Utilities.WebServiceHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="cr.ac.tec.lectuticas.Activities.MainActivity" target="cr.ac.tec.lectuticas.Utilities.AnalyticsTracker">
+      <point x="0.0" y="-14.5" />
+      <point x="57.5" y="128.0" />
+      <point x="300.0" y="128.0" />
+      <point x="-54.0" y="14.5" />
+    </edge>
+    <edge source="cr.ac.tec.lectuticas.Activities.LecturaCuentoActivity" target="cr.ac.tec.lectuticas.Models.Paragraph">
+      <point x="66.39999999999998" y="-14.5" />
+      <point x="817.4" y="138.0" />
+      <point x="806.4749999999999" y="138.0" />
+      <point x="806.4749999999999" y="54.0" />
+      <point x="827.455" y="54.0" />
+      <point x="34.00000000000003" y="14.5" />
+    </edge>
+    <edge source="cr.ac.tec.lectuticas.Models.Question" target="cr.ac.tec.lectuticas.Models.Answer">
+      <point x="0.0" y="-14.5" />
+      <point x="59.349999999999994" y="286.0" />
+      <point x="76.5" y="286.0" />
+      <point x="-29.0" y="14.5" />
+    </edge>
+    <edge source="cr.ac.tec.lectuticas.Activities.AcercaActivity" target="cr.ac.tec.lectuticas.Utilities.AnalyticsTracker">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="427.0" y="236.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

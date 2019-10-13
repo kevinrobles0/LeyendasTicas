@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">LectuTicas</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="error_ConexionNoPosible">No se puede conectar a la base de datos</string>
+    <string name="title_activity_preguntas_cadejos" translatable="false">PreguntasCadejosActivity</string>
+    <string name="acerca_de_lectuticas">Acerca de LectuTicas</string>
+    <string name="tec_nombre_completo">Tecnológico de Costa Rica</string>
+    <string name="escuela_ingenieria_computacion">Escuela de Ingeniería en Computación</string>
+    <string name="nombre_curso_disp_moviles">Desarrollo de Aplicaciones para Dispositivos Móviles</string>
+    <string name="desarrolladores_listing">Desarrolladores:</string>
+    <string name="esteban_fonseca_montoya" translatable="false">Esteban Fonseca Montoya</string>
+    <string name="arlyn_lopez_navarro" translatable="false">Arlyn López Navarro</string>
+    <string name="daniel_pacheco_lascarez" translatable="false">Daniel Pacheco Láscarez</string>
+    <string name="descripcion_app">El objetivo de la aplicación consiste en fomentar la lectura en los niños a través de historias o leyendas tradicionales de la cultura costarricense, de una forma interactiva, donde se permita la comprensión del text y la posibilidad de contestar preguntas relacionados al mismo. Se incluyen leyendas como "El Cadejos" y "La Cegua."</string>
+    <string name="agradecimientos_listing">Agradecimiento:</string>
+    <string name="parque_la_libertad">Parque La Libertad</string>
+    <string name="prof_adriana_alvarez_figueroa" translatable="false">Prof. Adriana Álvarez Figueroa</string>
+    <string name="descripcion_listing">Descripción:</string>
+    <string name="siguiente_pregunta">Siguiente Pregunta</string>
+    <string name="titulo_comprension_lectura">Comprensión de Lectura</string>
+    <string name="texto_pregunta">Aquí va la pregunta…</string>
+    <string name="respuesta_a">answer 1</string>
+    <string name="respuesta_b">answer 2</string>
+    <string name="respuesta_c">answer 3</string>
+    <string name="iniciar_preguntas">Iniciar Preguntas</string>
+    <string name="resultados_etiqueta">Resultados van aquí…</string>
+    <string name="error_consultaDatos">Hubo un error en la consulta de datos.</string>
+    <string name="error_iniciarPantallaCuento">Hubo un error al iniciar esta pantalla del cuento.</string>
+    <string name="mensaje_resultados_parte1">Usted contestó correctamente\n</string>
+    <string name="mensaje_resultados_parte2">" de "</string>
+    <string name="mensaje_resultados_parte3"> preguntas.\n Su puntuación es: </string>
+    <string name="questions_web_error">Hubo un error al obtener las preguntas.</string>
+    <string name="victor_aguirre" translatable="false">Víctor Aguirre Brenes</string>
+    <string name="connection_error">Ocurrió un error en la conexión</string>
+    <string name="query_error">Error al realizar la consulta</string>
+    <string name="answers_query_error">Hubo un error al obtener las respuestas.</string>
+    <string name="answer_not_selected_prompt">Debe seleccionar al menos una respuesta</string>
+    <string name="background_rendering_error">Hubo un error en la renderización del fondo de esta Actividad</string>
+    <string name="character_gif_render_error">No se pudo mostrar la imagen animada</string>
+    <string name="check_quiz_results">Ver Resultados</string>
+</resources>

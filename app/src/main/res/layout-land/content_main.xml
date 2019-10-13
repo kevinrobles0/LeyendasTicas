@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/activity_main"
+        tools:context="cr.ac.tec.lectuticas.Activities.MainActivity"
+        android:id="@id/layout_menu_principal"
+        android:background="@drawable/fondo_principal"
+        >
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+        <Button
+            android:layout_width="@dimen/tamaño_botones_grandes"
+            android:layout_height="@dimen/tamaño_botones_grandes"
+            android:layout_marginRight="@dimen/margen_botones_activity_principal"
+            android:layout_marginEnd="@dimen/margen_botones_activity_principal"
+            android:minWidth="1dp"
+            android:minHeight="1dp"
+            android:layout_gravity="start"
+            android:id="@+id/botonSeleccionarHistoria"
+            android:background="@drawable/story"
+            style="?android:attr/borderlessButtonStyle"
+            android:onClick="irALeyendas" />
+        <Button
+                android:layout_width="@dimen/tamaño_botones_grandes"
+                android:layout_height="@dimen/tamaño_botones_grandes"
+                android:layout_marginLeft="@dimen/margen_botones_activity_principal"
+                android:layout_marginStart="@dimen/margen_botones_activity_principal"
+                android:minWidth="1dp"
+                android:minHeight="1dp"
+                android:id="@+id/botonAcercaDe"
+                android:background="@drawable/about"
+                style="?android:attr/borderlessButtonStyle"
+                android:contextClickable="false"
+                android:clickable="false"
+                android:onClick="irAlAcerca"/>
+    </LinearLayout>
+
+</RelativeLayout>
