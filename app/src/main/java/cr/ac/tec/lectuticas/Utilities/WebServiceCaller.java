@@ -11,7 +11,7 @@ import java.util.Set;
  */
 public class WebServiceCaller {
 
-  private final static String WEB_SERVICE_URL = "http://kivucr.com/LectuTicas/";
+  private final static String WEB_SERVICE_URL = "http://lectuticas.josepablo.co/";
 
   private WebServiceCaller() {
   }
